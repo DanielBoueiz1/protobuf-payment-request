@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message PaymentRequest {
+    string payer = 1;
+    string payee = 2;
+    double amount = 3;
+}
